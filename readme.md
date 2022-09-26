@@ -7,7 +7,7 @@ Currenty under development.
 ## Technologies Used 
 - [NodeJS](https://nodejs.org/en/download/) 16.17.0
 <!-- - [Insomnia](https://insomnia.rest/download)  -->
-- [MongoDb](https://www.mongodb.com/docs/manual/administration/install-community/) 6.0.1
+- [MongoDB](https://www.mongodb.com/docs/manual/administration/install-community/) 6.0.1
 
 ## Dependencies 
 - [Express](https://www.npmjs.com/package/express) 4.18.1
