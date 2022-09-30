@@ -1,6 +1,6 @@
 import mongoose from "mongoose"
 
-mongoose.connect(`${process.env.DATABASE_URL}`)
+mongoose.connect("mongodb://0.0.0.0:27017/")
 mongoose.Promise = global.Promise
 
 export {mongoose}

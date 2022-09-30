@@ -4,12 +4,12 @@ import {mongoose} from '../database/dbindex'
 const UserSchema = new mongoose.Schema({
     email:{
         type: String,
+        lowercase: true,
         required: true,
     },
     createdAt:{
         type: Date,
         default: Date.now,
-        required: true,
     }
 })
 
